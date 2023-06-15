@@ -11,6 +11,10 @@ const questionSchema = new Schema({
     type: String,
     require: true,
   },
+  subject: {
+    type: String,
+    require: true,
+  },
   options: [
     {
       type: String,
